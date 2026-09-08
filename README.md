@@ -12,7 +12,7 @@ College of Engineering. Each folder is a self-contained Xcode project — open t
 | [College App](College%20App) | `exp2_swiftui.xcodeproj` | `exp2_swiftui` | `com.kjsce.exp2-swiftui` | "Campus Connect" — a five-tab college guide covering Home, Departments, Faculty, Facilities and Contact. |
 | [Health Tracker](Health%20Tracker) | `Health Tracker.xcodeproj` | `Health Tracker` | `com.altf4games.Health-Tracker` | Weight, BMI and daily water tracking with a profile setup flow and history charts. Uses SwiftData for persistence. |
 | [ID](ID) | `Exp.xcodeproj` | `Exp` | `edu.kjsce.Exp` | A student ID card view with a generated QR code screen. |
-| [Weather App](Weather%20App) | `Test.xcodeproj` | `Test` | `com.altf4games.Test` | A static weather screen with a five-day forecast row and a day/night toggle that swaps the gradient and SF Symbols. |
+| [WeatherForecast](WeatherForecast) | `WeatherForecast.xcodeproj` | `WeatherForecast` | `com.altf4games.WeatherForecast` | Search any city and see its current conditions and a 7-day forecast, fetched live from the Open-Meteo REST API with `URLSession` + `Codable`. Three screens: search/home, current details, forecast. |
 
 > The folder names are friendly labels; the Xcode project names inside them
 > (`exp2_swiftui`, `exp3_swiftui`, `Exp`) are the original assignment names and
@@ -39,5 +39,6 @@ xcodebuild -project "Book Library/exp3_swiftui.xcodeproj" -scheme exp3_swiftui -
 ## Repository layout
 
 This is a single Git repository containing all five projects. `Health Tracker`
-and `Weather App` previously had their own nested Git repositories; they have been
+and `WeatherForecast` (formerly `Weather App`) previously had their own nested Git
+repositories; they have been
 folded into this one so everything lives under a single history and remote.

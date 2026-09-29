@@ -13,6 +13,7 @@ College of Engineering. Each folder is a self-contained Xcode project — open t
 | [Health Tracker](Health%20Tracker) | `Health Tracker.xcodeproj` | `Health Tracker` | `com.altf4games.Health-Tracker` | Weight, BMI and daily water tracking with a profile setup flow and history charts. Uses SwiftData for persistence. |
 | [ID](ID) | `Exp.xcodeproj` | `Exp` | `edu.kjsce.Exp` | A student ID card view with a generated QR code screen. |
 | [WeatherForecast](WeatherForecast) | `WeatherForecast.xcodeproj` | `WeatherForecast` | `com.altf4games.WeatherForecast` | Search any city and see its current conditions and a 7-day forecast, fetched live from the Open-Meteo REST API with `URLSession` + `Codable`. Three screens: search/home, current details, forecast. |
+| [Notes App](Notes%20App) | `Notes App.xcodeproj` | `Notes App` | `devplaceholder.*` (Xcode placeholder) | Create, view, edit and delete notes with search. Persisted with SwiftData (`@Model`, `ModelContainer`, `ModelContext`, `@Query`). Four screens: notes list, add, detail, edit. Liquid Glass styling. |
 
 > The folder names are friendly labels; the Xcode project names inside them
 > (`exp2_swiftui`, `exp3_swiftui`, `Exp`) are the original assignment names and
@@ -21,7 +22,7 @@ College of Engineering. Each folder is a self-contained Xcode project — open t
 ## Requirements
 
 - Xcode 26 or newer
-- iOS 26 Simulator (deployment targets: 26.2–26.5)
+- iOS 26 Simulator (deployment targets: 26.0–26.5)
 - Swift 5
 
 ## Running an app
@@ -38,7 +39,7 @@ xcodebuild -project "Book Library/exp3_swiftui.xcodeproj" -scheme exp3_swiftui -
 
 ## Repository layout
 
-This is a single Git repository containing all five projects. `Health Tracker`
+This is a single Git repository containing all six projects. `Health Tracker`
 and `WeatherForecast` (formerly `Weather App`) previously had their own nested Git
 repositories; they have been
 folded into this one so everything lives under a single history and remote.

@@ -14,6 +14,7 @@ College of Engineering. Each folder is a self-contained Xcode project — open t
 | [ID](ID) | `Exp.xcodeproj` | `Exp` | `edu.kjsce.Exp` | A student ID card view with a generated QR code screen. |
 | [WeatherForecast](WeatherForecast) | `WeatherForecast.xcodeproj` | `WeatherForecast` | `com.altf4games.WeatherForecast` | Search any city and see its current conditions and a 7-day forecast, fetched live from the Open-Meteo REST API with `URLSession` + `Codable`. Three screens: search/home, current details, forecast. |
 | [Notes App](Notes%20App) | `Notes App.xcodeproj` | `Notes App` | `devplaceholder.*` (Xcode placeholder) | Create, view, edit and delete notes with search. Persisted with SwiftData (`@Model`, `ModelContainer`, `ModelContext`, `@Query`). Four screens: notes list, add, detail, edit. Liquid Glass styling. |
+| [Calling Simulation](Calling%20Simulation) | `Calling Simulation.xcodeproj` | `Calling Simulation` | `com.altf4games.CallingSimulation` | A simulated phone app built to show off SwiftUI animations and transitions: zoom transition from contact to call screen, pulsing ringing rings, `phaseAnimator` wiggling answer button, `matchedGeometryEffect` end button, numeric-text call timer, SF Symbol replace effects, keypad scale transitions and an animated call log. Three screens: contacts, recents, in-call (outgoing + simulated incoming). |
 
 > The folder names are friendly labels; the Xcode project names inside them
 > (`exp2_swiftui`, `exp3_swiftui`, `Exp`) are the original assignment names and
@@ -39,7 +40,7 @@ xcodebuild -project "Book Library/exp3_swiftui.xcodeproj" -scheme exp3_swiftui -
 
 ## Repository layout
 
-This is a single Git repository containing all six projects. `Health Tracker`
+This is a single Git repository containing all seven projects. `Health Tracker`
 and `WeatherForecast` (formerly `Weather App`) previously had their own nested Git
 repositories; they have been
 folded into this one so everything lives under a single history and remote.
